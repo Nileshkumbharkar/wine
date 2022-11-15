@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:rgb(176, 230, 222);">
+ 
+<center>
+  <h2 style="background-color: rgb(0, 238, 255)">WINE PREDICTION</h2>
+
+<form action='/predict_wine' , method="POST">
+
+   <label for="alcohol">alcohol:</label><br>
+   <input type="number" step="0.01" id="alcohol" name="alcohol"><br><br>
+
+   <label for="malic_acid">malic_acid:</label><br>
+   <input type="number" step="0.01" id="malic_acid" name="malic_acid"><br><br>
+
+   <label for="ash">ash:</label><br>
+   <input type="number" step="0.01" id="ash" name="ash"><br><br>
+
+   <label for="alcalinity_of_ash">alcalinity_of_ash:</label><br>
+   <input type="number"step="0.01" id="alcalinity_of_ash" name="alcalinity_of_ash"><br><br>
+
+   <label for="magnesium">magnesium:</label><br>
+   <input type="number" step="0.01" id="magnesium" name="magnesium"><br><br>
+
+   <label for="total_phenols">total_phenols:</label><br>
+   <input type="number" step="0.01" id="total_phenols" name="total_phenols" ><br><br>
+
+   <label for="flavanoids">flavanoids:</label><br>
+   <input type="number" step="0.01" id="flavanoids" name="flavanoids"><br><br>
+
+   <label for="nonflavanoid_phenols">nonflavanoid_phenols:</label><br>
+   <input type="number" step="0.01" id="nonflavanoid_phenols" name="nonflavanoid_phenols"><br><br>
+
+   <label for="proanthocyanins">proanthocyanins:</label><br>
+   <input type="number" step="0.01" id="proanthocyanins" name="proanthocyanins" ><br><br>
+
+   <label for="color_intensity">color_intensity:</label><br>
+   <input type="number" step="0.01" id="color_intensity" name="color_intensity"><br><br>
+
+   <label for="hue">hue:</label><br>
+   <input type="number" step="0.01" id="hue" name="hue"><br><br>
+
+   <label for="diluted_wines">diluted_wines:</label><br>
+   <input type="number" step="0.01" id="diluted_wines" name="diluted_wines"><br><br>
+
+   <label for="proline">proline:</label><br>
+   <input type="number" step="0.01" id="proline" name="proline"><br><br>
+
+   <input type="submit" value="predict_wine">
+ </form>
+
+<p>Click on  "Submit" for getting the prediction </p>
+</center>
+</body>
+</html>
